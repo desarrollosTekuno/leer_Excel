@@ -107,7 +107,7 @@ $("#frmFiles").on("submit", function (e) {
                     showConfirmButton: true,
                     confirmButtonText: 'Aceptar',
                     confirmButtonColor: '#172e5c',
-                    backdrop: false,
+                    //backdrop: false,
                     //timer: 1500
                 }).then((result) => {
                     if (result.isConfirmed) {
